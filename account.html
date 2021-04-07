@@ -17,30 +17,35 @@
 </head>
 
 <body>
-
+    <!-- ===== HEADER START ===== -->
     <div class="header">
 
-        <div class="container">
-           
-            <div class="logo">
-                <img src="./Images/TMDCT_1.png" alt="" width="125px">
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="HomePage.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-                <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button>
-                
-            </nav>
-
+        <div class="topnav">
+            <ul id="MenuItems">
+                <li>
+                    <div class="logo">
+                        <img src="./Images/TMDCT_1.png" alt="" width="125px">
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li>
+                    <!-- Search bar -->
+                    <div class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                        <input id="SearchInput" type="text" placeholder="Search.." name="search2">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </li>
+            </ul>
+            <!-- Button Icons -->
+            <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button>
         </div>
-
     </div>
-
+    <br>
+    <!-- ====== HEADER END ======-->
     <!-- account page -->
     <div class="account-page">
         <div class="container">
@@ -54,7 +59,7 @@
                         </div>
                         <form id="LoginForm">
                             <input type="text" placeholder="Username">
-                            <input type="password" placeholder ="Password">
+                            <input type="password" placeholder="Password">
                             <button type="submit" class="btn">Login</button>
                             <a href="">Forgot password?</a>
                         </form>
@@ -63,11 +68,11 @@
                             <input type="email" placeholder="Username">
                             <input type="password" placeholder="Password">
                             <button type="submit" class="btn">Register</button>
-                         
+
                         </form>
                     </div>
-                    
-                   
+
+
                 </div>
             </div>
         </div>
@@ -120,7 +125,7 @@
         </div>
     </div>
 
- 
+
     <script src="InteractiveObj.js"></script>
 
 </body>
