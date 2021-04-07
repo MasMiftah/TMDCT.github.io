@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,192 +8,238 @@
     <!-- Links the css file with this html file -->
     <link rel="stylesheet" href="WebDesign.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Search bar icon ref -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- "Technology Makes Dreams Come True" -->
     <title>TMDCT</title>
 </head>
 
 <body>
-    <!-- Header start -->
+    <!-- ===== HEADER START ===== -->
     <div class="header">
 
-    <div class="container">
-        <div class="logo">
-        <img src="./Images/TMDCT_1.png" alt="" width="125px">
+        <div class="topnav">
+            <ul id="MenuItems">
+                <li>
+                    <div class="logo">
+                        <img src="./Images/TMDCT_1.png" alt="" width="125px">
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li>
+                    <!-- Search bar -->
+                    <div class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                        <input id="SearchInput" type="text" placeholder="Search.." name="search2">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </li>
+            </ul>
+            <!-- Button Icons -->
+            <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button>
+        </div>
     </div>
-    <nav>
-        <ul id="MenuItems">
-            <li><a href="HomePage.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="account.html">Account</a></li>
-        </ul>
-        <!-- Button Icons -->
-         <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button>
-    <img src="./Images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
-    </nav>
-    </div>
-    </div>
-    <!-- Header end -->
-    
-    <!-- Header of the page -->
-    <div class="row">
+    <br>
+    <!-- ====== HEADER END ======-->
+
+
+    <div class="OnlineShopping-row">
         <div class="col-2">
             <h1>Online Shopping</h1>
-        <a href="products.html" class="btn">Shop now &#8594;</a>
+            <!-- <a href="products.html" class="btn">Shop now &#8594;</a> -->
         </div>
     </div>
 
+    <!-- ===== IMAGE SLIDER START ===== -->
+    <div class="slidershow-background">
+        <div class="slideshow-container">
 
-        <!-- NOTE - Instead of these catagories, it might be nice to have a slider  -->
-        <!-- Promotional catagories - START -->
-        <div class="categories">
-            <div class="small-container">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="./Images/pasted image 0.png" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img src="./Images/lg-55-4k-HDR-OLED-Smart-TV.jpg" alt="">
-                    </div>
-                    <div class="col-3">
-                        <img src="./Images/RedHeadphones_1.jpg" alt="">
-                    </div>
-                </div>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./Images/GoldHeadphones.webp" style="width:100%">
+
             </div>
- 
+
+            <div class="mySlides fade">
+                <img src="./Images/Tablet.jpg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./Images/SmartTV.jpg" style="width:100%">
+
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <!-- Promotional categories - END -->
-      
-            <!-- Best selling products below the categories: START -->
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <!-- ==== IMAGE SLIDER END =====-->
+
+
+
+    <!-- NOTE - Instead of these catagories, it might be nice to have a slider  -->
+    <!-- Promotional catagories - START -->
+    <!-- <div class="categories">
         <div class="small-container">
-            <h2 class="title">Best Selling</h2>
             <div class="row">
-                <div class="col-4">
-                    <img src="./Images/samsung5.jpeg" alt="">
-                    <h4>Galaxy J7</h4>
-                    <div class="rating">
-                        <i class="fa fa-star" ></i>
-                        <i class="fa fa-star" ></i>
-                        <i class="fa fa-star" ></i>
-                        <i class="fa fa-star-half-o" ></i>
-                    </div>
-                    <p>$350.00</p>
+                <div class="col-3">
+                    <img src="./Images/pasted image 0.png" alt="">
                 </div>
-                <div class="col-4">
-                    <img src="./Images/SonyHeadphones_1.jpeg" alt="">
-                    <h4>Sony Wireless Headphones</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                    <p>$100.00</p>
-                </div>
-                <div class="col-4">
+                <div class="col-3">
                     <img src="./Images/lg-55-4k-HDR-OLED-Smart-TV.jpg" alt="">
-                    <h4>Galaxy J7</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>$350.00</p>
                 </div>
-                <div class="col-4">
-                    <img src="./Images/GoldHeadphones.webp" alt="">
-                    <h4>Galaxy J7</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>$350.00</p>
+                <div class="col-3">
+                    <img src="./Images/RedHeadphones_1.jpg" alt="">
                 </div>
             </div>
         </div>
-        <!-- Best selling products - END -->
+
+    </div> -->
+    <!-- Promotional categories - END -->
+
+    <!-- Best selling products below the categories: START -->
+    <div class="small-container">
+        <h2 class="title">Best Selling</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./Images/samsung5.jpeg" alt="">
+                <h4>Galaxy J7</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$350.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Images/SonyHeadphones_1.jpeg" alt="">
+                <h4>Sony Wireless Headphones</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Images/lg-55-4k-HDR-OLED-Smart-TV.jpg" alt="">
+                <h4>Galaxy J7</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$350.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./Images/GoldHeadphones.webp" alt="">
+                <h4>Galaxy J7</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$350.00</p>
+            </div>
+        </div>
+    </div>
+    <!-- Best selling products - END -->
 
 
-        <!-- Best deal of the week section - START -->
-        <div class="offer">
-            <div class ="small-container">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="./Images/Desktop.jfif" class="offer-img" alt="" width="400px" height="500px">
-                    </div>
-                    <div class="col-2">
-                        <p>Best deal of the week</p>
-                        <h1>HP-9000</h1>
-                        <small>
-                            Dive into the world of technology. We have everything that you could possibly desire. 
-                        </small>
-                    </div>
+    <!-- Best deal of the week section - START -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./Images/Desktop.jfif" class="offer-img" alt="" width="400px" height="500px">
+                </div>
+                <div class="col-2">
+                    <p>Best deal of the week</p>
+                    <h1>HP-9000</h1>
+                    <small>
+                        Dive into the world of technology. We have everything that you could possibly desire.
+                    </small>
                 </div>
             </div>
         </div>
-        <!-- Best deal of the week section - END -->
+    </div>
+    <!-- Best deal of the week section - END -->
 
 
-        <!-- Footer - START -->
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col-1">
-                        <h3>Want to know more?</h3>
-                        <ul>
-                            <li>Careers</li>
-                            <li>Origin</li>
-                            <li>Blog</li>
-                            <li>TMDCT Tour</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col-2">
-                        <h3>Want to make money?</h3>
-                        <ul>
-                            <li>Sell Products</li>
-                            <li>Trade</li>
-                            <li>Publish</li>
-                            <li>Sell Apps</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col-3">
-                        <h3>Useful links</h3>
-                        <ul>
-                            <li>Specials</li>
-                            <li>Blog Post</li>
-                            <li>Return Policy</li>
-                            <li>Join Affiliate</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col-4">
-                        <h3>Follow us</h3>
-                        <ul>
-                            <li>Facebook</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li>Youtube</li>
-                    
-                        </ul>
-                    </div>
+    <!-- Footer - START -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Want to know more?</h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Origin</li>
+                        <li>Blog</li>
+                        <li>TMDCT Tour</li>
+                    </ul>
                 </div>
-                <hr>
-                <p class="copyright">&#169; Copyright 2021 -CS Ninjas</p>
+                <div class="footer-col-2">
+                    <h3>Want to make money?</h3>
+                    <ul>
+                        <li>Sell Products</li>
+                        <li>Trade</li>
+                        <li>Publish</li>
+                        <li>Sell Apps</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Specials</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+
+                    </ul>
+                </div>
             </div>
+            <hr>
+            <p class="copyright">&#169; Copyright 2021 -CS Ninjas</p>
         </div>
-        <!-- Footer - END -->
+    </div>
+    <!-- Footer - END -->
 
 
-        
- <!-- Links the javascript file to this html file -->
-<script src="InteractiveObj.js"></script>
+
+    <!-- Links the javascript file to this html file -->
+    <script src="InteractiveObj.js"></script>
 
 </body>
+
 </html>
