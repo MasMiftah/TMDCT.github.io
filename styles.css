@@ -1,0 +1,533 @@
+/* ======= Refer to HomePage.html ======= */
+
+/* Selects all elements  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Select body element - Has a higher priority than " * " */
+html, body {
+  font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
+  
+}
+
+/* Wrapped around menu items */
+.topnav {
+  flex: 1;
+  text-align: right;
+}
+
+/* Gets rid of the bullet points */
+.topnav ul {
+  display: inline-block;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+/* Arranges the list into a singular row */
+.topnav ul li {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+/* Gets rid of the blue underline links */
+/* Home, Products, About, Contact, Account */
+/* Anchor */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Paragraph */
+p {
+  color: #555;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.logo{
+  margin-left: -150%;
+  
+}
+.logo a:hover{
+  background-color: rgb(0, 81, 255);
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
+/* Cart Icon */
+#CartIcon {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(243, 176, 51);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+  image-rendering: -moz-crisp-edges;
+}
+.col-2 h1 {
+  font-size: 30px;
+  line-height: 60px;
+  margin: 25px 0;
+  text-align: center;
+}
+/* Wraps around "show now" */
+.btn {
+  display: inline-block;
+  background: blue;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #898bee;
+}
+
+/* Top part of the page */
+.header {
+  background-color: rgb(0, 81, 255);
+}
+.header .row {
+  margin-top: 70px;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+
+/* Wraps around the three pictures under the header */
+.small-container {
+  /* max-width: 1080px; */
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.NewProduct-container {
+  /* max-width: 1080px; */
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  /* padding-left: 75px; */
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 200px;
+  height: 200px;
+  
+}
+.col-4 h4{
+  text-align: justify;
+}
+
+/* Wraps around "Best seller" section header */
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: black; 
+}
+
+.title::after {
+  content: "";
+  background: blue;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+ 
+}
+
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.rating .fa {
+  color: #ff523b;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+
+/* Brands */
+.brands {
+  margin: 100px auto;
+}
+.col-5 {
+  width: 160px;
+}
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover {
+  filter: grayscale(0);
+}
+
+/* footer */
+
+.footer {
+  background: #000;
+  color: white;
+  font-size: 14px;
+  /* padding: 60px 0 20px; */
+  padding-left: 10px;
+}
+
+.footer p {
+  color: #5f5f5f;
+}
+.footer h3 {
+  color: white;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  /* min-width: 250px; */
+  width: 100%;
+  margin-bottom: 20px;
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  /* text-align: center; */
+}
+
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+}
+ul {
+  list-style-type: none;
+}
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+.offer {
+  /* background: radial-gradient(rgb(221, 6, 6), #ff1a1a); */
+  margin-top: 80px;
+  padding: 30px 0;
+}
+
+/* all products from products.html file */
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #ff523b;
+}
+select:focus {
+  outline: none;
+}
+.page-btn {
+  margin: 0 auto 80px;
+}
+.page-btn span {
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn span:hover {
+  background: rgb(195, 195, 255);
+}
+
+.account-page {
+  padding: 50px 0;
+  background: radial-garient(#fff, #ffd6d6);
+}
+.form-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+.form-btn {
+  display: inline-block;
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 0px;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+/* ======= Refer to accounts.html ======= */
+#LoginForm {
+  left: -300px;
+}
+#RegisterForm {
+  left: 0;
+}
+
+form a {
+  font-size: 12px;
+}
+
+/*  Login page */
+#Indicator {
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
+/* ================= Image Slider content- Start ===============*/
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+   width: 500px;
+  height: 600px;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  transition: 0.6s ease-in-out;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(161, 160, 160, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+} */
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slidershow-background {
+  background-color: #ffffff;
+    max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*===================== Image Slider content - End ============*/
+
+/*=============== Search bar start =======*/
+.Searchbar #SearchInput[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.Searchbar button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.Searchbar button:hover {
+  background: #0b7dda;
+}
+
+.Searchbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*=============== Search bar end =======*/
+
+/* Need to add interactive search bar and shopping cart*/
+/* Need to provide data for login. Maybe this is where mySQL and php come in? */
