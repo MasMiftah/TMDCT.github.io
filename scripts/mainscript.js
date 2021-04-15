@@ -1,15 +1,3 @@
-// Menu items toggle 
-var MenuItems = document.getElementById ("MenuItems");
-MenuItems.style.maxHeight = "0px";
-
-function menutoggle(){
-    if(MenuItems.style.maxHeight == "0px"){
-        MenuItems.style.maxHeight = "200px";
-    }
-    else{
-        MenuItems.style.maxHeight = "0px";
-    }
-}
 
 // Account login
 var LoginForm = document.getElementById("LoginForm");
@@ -27,6 +15,7 @@ function login(){
     RegisterForm.style.transform = "translateX(300px)";
      Indicator.style.transform = "translateX(0px)";
 }
+// Account login - end
 
 // image slider - start
 
@@ -43,10 +32,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
+function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -60,6 +46,10 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
+// image slider - end 
+
+
+// Search bar - start

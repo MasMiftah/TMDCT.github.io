@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="WebDesign.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -17,34 +17,39 @@
 </head>
 
 <body>
-    <!-- ===== HEADER START ===== -->
-    <div class="header">
+<!-- ===== HEADER START ===== -->
+<div class="header">
 
-        <div class="topnav">
-            <ul id="MenuItems">
-                <li>
-                    <div class="logo">
-                        <img src="./Images/TMDCT_1.png" alt="" width="125px">
-                    </div>
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+    <div class="topnav">
+        <ul>
 
-                <li><a href="account.html">Account</a></li>
-                <li>
-                    <!-- Search bar -->
-                    <div class="Searchbar" action="/action_page.php" style="margin:auto;max-width:300px">
-                        <input id="SearchInput" type="text" placeholder="Search.." name="search2">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </div>
-                </li>
-            </ul>
-            <!-- Button Icons -->
-            <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button>
-        </div>
+
+            <li>
+                <div class="logo">
+                    <img src="/Images/TMDCT_1.png" alt="" width="125px">
+                </div>
+            </li>
+
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/products.html">Products</a></li>
+            <li><a href="/account.html">Account</a></li>
+            <li>
+
+                <!-- Search bar -->
+                <div class="Searchbar" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input id="SearchInput" type="text" placeholder="Search.." name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Button Icons
+        <button id="CartIcon"><i class="fa fa-shopping-cart"></i></button> -->
     </div>
-    <br>
-    <!-- ====== HEADER END ======-->
+</div>
+<br>
+<!-- ====== HEADER END ======-->
+
     <!-- account page -->
     <div class="account-page">
         <div class="container">
@@ -124,7 +129,7 @@
     </div>
 
 
-    <script src="InteractiveObj.js"></script>
+    <script src="./scripts/mainscript.js"></script>
 
 </body>
 
