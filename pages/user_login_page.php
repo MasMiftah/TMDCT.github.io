@@ -122,7 +122,7 @@
                     <a href="admin_login_page.php">&copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>,</a> Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script>,</a> Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

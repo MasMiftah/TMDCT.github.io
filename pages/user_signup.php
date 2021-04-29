@@ -212,7 +212,7 @@ if(isset($_POST['submit']))
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by TMDCT.
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

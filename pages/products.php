@@ -32,7 +32,7 @@
             <div class="section section-basic">
                 <div class="container">
                       <h2>All Product List</h2>
-                      <hr color="orange"> 
+                      <hr color="black"> 
                 <br>
                 <div class="col-md-12">
                 <br>
@@ -102,7 +102,7 @@
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

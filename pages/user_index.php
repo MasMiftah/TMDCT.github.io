@@ -148,7 +148,7 @@
                                 </form>
                         </center>
                     </div>
-                    <br><hr color="orange">
+                    <br><hr color=" black">
 
                       <div class="tab-pane  active" id="">
                         <ul class="thumbnails">
@@ -172,7 +172,7 @@
                             </div>
 
                             </div>
-                          <hr color="orange">
+                          <hr color="black">
                           </div>
                                  
                     <?php }?> 
@@ -189,15 +189,15 @@
                 <nav>
                     <ul>
                        
-						
-						<li>Brought To You By <a href="https://code-projects.org/">code-projects</a> | Thanks to Billy Revellame</li>
+<!-- 						
+						<li>Brought To You By <a href="https://code-projects.org/">code-projects</a> | Thanks to Billy Revellame</li> -->
                     </ul>
                 </nav>
                 <div class="copyright">
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

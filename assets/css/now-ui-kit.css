@@ -31,6 +31,7 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
+ 
 .bootstrap-switch {
     display: inline-block;
     direction: ltr;
@@ -3731,7 +3732,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #f96332 !important;
+    background-color:#2c2c2c !important;
 }
 
 .bg-info {
@@ -3815,11 +3816,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-    background-color: #f95823;
+    background-color:rgba(0, 27, 117, 0.6);
 }
 
 .dropdown-menu.dropdown-primary:before {
-    color: #f95823;
+    color: rgba(0, 27, 117, 0.6);
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -5585,13 +5586,13 @@ Created using IcoMoon - icomoon.io
 .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 73, 224, 0.6));
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(7, 3, 224, 0.6));
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(3, 25, 224, 0.6));
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(3, 43, 224, 0.6));
     /* Standard syntax */
 }
 

@@ -18,6 +18,7 @@ include('config/dbconn.php');
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <!-- <link href="assets/css/slider_styles.css" rel="stylesheet"> -->
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/css/demo.css" rel="stylesheet" />
 
@@ -95,6 +96,9 @@ include('config/dbconn.php');
             </div>
         </div>
     </nav>
+    
+
+   
     <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
@@ -110,6 +114,49 @@ include('config/dbconn.php');
             </div>
         </div>
         <br>
+        
+ 
+
+    <!-- ===== Image slider Start ===== -->
+    <!-- <div class="slidershow-background">
+        <div class="slideshow-container">
+
+           
+            <div class="mySlides fade">
+                <img src="uploads/default.png" width="300px" height="200px" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="uploads/default.png"  style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="uploads/default.png"  style="width:100%">
+
+            </div>
+        </div>
+    <div>
+
+
+           
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            
+            <div class="dots">
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div> -->
+            <!-- ==== Image slider END =====-->
+
+
         <div class="main">
             <div class="section section-basic">
                 <div class="container">
@@ -132,7 +179,7 @@ include('config/dbconn.php');
                                 </form>
                         </center>
                     </div>
-                    <br><hr color="orange">
+                    <br><hr color="black">
 
   <div class="tab-pane  active" id="">
     <ul class="thumbnails">
@@ -156,7 +203,7 @@ include('config/dbconn.php');
         </div>
 
         </div>
-      <hr color="orange">
+      <hr color="black">
       </div>
              
 <?php }?> 
@@ -186,7 +233,7 @@ include('config/dbconn.php');
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by CSNINJAS..
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>
@@ -249,6 +296,7 @@ include('config/dbconn.php');
     <script src="assets/js/jquery.lightbox-0.5.js"></script>
     <script src="assets/js/bootsshoptgl.js"></script>
      <script type="text/javascript">
+    <script src="assets/js/slider_script.js"><script>
     $(function() {
         $('#gallery a').lightBox();
     });

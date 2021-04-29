@@ -37,7 +37,7 @@
                 <div class="container">
                       <h2>All Product List</h2>
                       <a class="btn btn-primary btn-round" href="user_index.php"><i class="now-ui-icons arrows-1_minimal-left"></i> &nbsp Back to index</a>
-                      <hr color="orange"> 
+                      <hr color="black"> 
                 
                 <div class="col-md-12">
                 <br>

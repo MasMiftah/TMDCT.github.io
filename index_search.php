@@ -109,6 +109,8 @@ include('config/dbconn.php');
             </div>
         </div>
         <br>
+
+        
         <div class="main">
             <div class="section section-basic">
                 <div class="container">
@@ -131,7 +133,7 @@ include('config/dbconn.php');
                                 </form>
                         </center>
                     </div>
-                    <br><hr color="orange">
+                    <br><hr color="black">
 
                     <div class="tab-pane  active" id="">
                         <ul class="thumbnails">
@@ -159,7 +161,7 @@ include('config/dbconn.php');
                                 </div>
 
                                 </div>
-                              <hr color="orange">
+                              <hr color="black">
                               </div>
                                      
                                 <?php }?> 

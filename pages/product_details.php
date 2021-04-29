@@ -40,7 +40,7 @@
 
     <div class="section" id="carousel">
         <div class="container">
-            <h2>Product Details</h2><hr color="orange">
+            <h2>Product Details</h2><hr color="black">
             <div class="col-md-12">
                 <div class="row justify-content-center">
                     <div class="col-8">
