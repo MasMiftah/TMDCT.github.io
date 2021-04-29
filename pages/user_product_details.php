@@ -97,7 +97,7 @@
         <div class="container">
             <h2>Product Details</h2>
             <a class="btn btn-primary btn-round" href="user_index.php"><i class="now-ui-icons arrows-1_minimal-left"></i> &nbsp Back to index</a>
-            <hr color="orange">
+            <hr color="black">
             <div class="col-md-12">
                 <div class="row justify-content-center">
                     <div class="col-8">
@@ -253,20 +253,16 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="" target="_blank">
-                                Creative ABC
-                            </a>
+                            
                         </li>
-                        <li>
-                            Elective02
-                        </li>
+                      
                     </ul>
                 </nav>
                 <div class="copyright">
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

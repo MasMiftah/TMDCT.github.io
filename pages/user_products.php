@@ -106,20 +106,16 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="" target="_blank">
-                                Creative ABC
-                            </a>
+                            
                         </li>
-                        <li>
-                            Elective02
-                        </li>
+                       
                     </ul>
                 </nav>
                 <div class="copyright">
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script>, Designed and Coded by CSNINJAS.
                 </div>
             </div>
         </footer>

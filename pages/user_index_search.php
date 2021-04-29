@@ -149,7 +149,7 @@
                                 </form>
                         </center>
                     </div>
-                    <br><hr color="orange">
+                    <br><hr color="black">
 
                     <div class="tab-pane  active" id="">
                         <ul class="thumbnails">
@@ -177,7 +177,7 @@
                                 </div>
 
                                 </div>
-                              <hr color="orange">
+                              <hr color="black">
                               </div>
                                      
                                 <?php }?> 

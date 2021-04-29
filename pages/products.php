@@ -89,13 +89,9 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="" target="_blank">
-                                Creative ABC
-                            </a>
+                           
                         </li>
-                        <li>
-                            Elective02
-                        </li>
+                        
                     </ul>
                 </nav>
                 <div class="copyright">
