@@ -8,7 +8,7 @@ customers to access.<br />
 
 INSTRUCTIONS ON CODE COMPILATION
 
-- The user must have XAMPP downloaded to access the PHP and SQL files. Also, the user may use a compiler such as Visual Studio code to open the files.<br />
+- The user must have XAMPP downloaded to access the PHP and SQL files. Also, the user may use a compiler such as Visual Studio code to access/modify the files.<br />
 - Please download the zip and store in windows file explorer. Alternatively, create an empty file on windows file explorer and clone this project.<br />
 - Start the services for the Apache and mySQL on XAMPP.<br />
 - Go to http://localhost/phpmyadmin/.<br />
