@@ -2,9 +2,9 @@
 
 PROJECT DESCRIPTION
 
-- This is an online shopping website that allows the user to shop for products online. The user may perform basic functions such as search for products, update/insert/delete <br />
-- items for the cart. Also the advanced function for this application is the login syste, which allows the user to access the admin panel and create products for other <br />
-- customers to access.<br />
+- This is an online shopping website that allows the user to shop for products online. The user may perform basic functions such as search for products, update/insert/delete
+items for the cart. Also the advanced function for this application is the login syste, which allows the user to access the admin panel and create products for other
+customers to access.<br />
 
 INSTRUCTIONS ON CODE COMPILATION
 
